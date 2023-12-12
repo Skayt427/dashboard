@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="overlay"></div>
+    <aside class="aside">
+      <button type="button" class="aside__btn icon-chevron-right"></button>
+
+      <a href="/" class="logo">
+        <img src="img/logo.png" alt="" class="logo__img">
+        <span class="logo__version">v.01</span>
+      </a>
+
+      <nav class="navigaion">
+        <ul class="navigaion__list">
+          <li class="navigaion__item">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-dashboard"></span>
+              Dashboard
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+
+          <li class="navigaion__item">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-product"></span>
+              Product
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+
+          <li class="navigaion__item active">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-customers"></span>
+              Customers
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+
+          <li class="navigaion__item">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-income"></span>
+              Income
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+
+          <li class="navigaion__item">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-promote"></span>
+              Promote
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+
+          <li class="navigaion__item">
+            <a href="#" class="navigaion__link">
+              <span class="navigaion__icon icon-help"></span>
+              Help
+              <span class="navigaion__arrow icon-chevron-right"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="user">
+        <img src="img/user.jpg" alt="user-name" class="user__img">
+        <div class="user__box">
+          <a href="#" class="user__name">Evano</a>
+          <div class="user__position">Project Manager</div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="page-title">Hello Evano 👋🏼,</div>
+
+      <section class="section customers">
+        <div class="customers__top">
+          <div class="customers__left">
+            <h1 class="title">All Customers</h1>
+            <div class="subtitle green-light">Active Members</div>
+          </div>
+
+          <label class="search">
+            <button class="search__btn icon-search"></button>
+            <input type="search" class="search__input" placeholder="Search">
+          </label>
+        </div>
+
+        <div class="table">
+          <div class="table__wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Customer Name</th>
+                  <th>Company</th>
+                  <th>Phone Number</th>
+                  <th>Email</th>
+                  <th>Country</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Jane Cooper</td>
+                  <td>Microsoft</td>
+                  <td>(225) 555-0118</td>
+                  <td>jane@microsoft.com</td>
+                  <td>United States</td>
+                  <td>
+                    <div class="status active">Active</div>
+                    <!-- <div class="status">Inactive</div> -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Floyd Miles</td>
+                  <td>Yahoo</td>
+                  <td>(205) 555-0100</td>
+                  <td>floyd@yahoo.com</td>
+                  <td>Kiribati</td>
+                  <td>
+                    <!-- <div class="status active">Active</div> -->
+                    <div class="status">Inactive</div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Ronald Richards</td>
+                  <td>Adobe</td>
+                  <td>(302) 555-0107</td>
+                  <td>ronald@adobe.com</td>
+                  <td>Israel</td>
+                  <td>
+                    <!-- <div class="status active">Active</div> -->
+                    <div class="status">Inactive</div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Marvin McKinney</td>
+                  <td>Tesla</td>
+                  <td>(252) 555-0126</td>
+                  <td>marvin@tesla.com</td>
+                  <td>Iran</td>
+                  <td>
+                    <div class="status active">Active</div>
+                    <!-- <div class="status">Inactive</div> -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Jerome Bell</td>
+                  <td>Google</td>
+                  <td>(629) 555-0129</td>
+                  <td>jerome@google.com</td>
+                  <td>Réunion</td>
+                  <td>
+                    <div class="status active">Active</div>
+                    <!-- <div class="status">Inactive</div> -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Kathryn Murphy</td>
+                  <td>Microsoft</td>
+                  <td>(406) 555-0120</td>
+                  <td>kathryn@microsoft.com</td>
+                  <td>Curaçao</td>
+                  <td>
+                    <div class="status active">Active</div>
+                    <!-- <div class="status">Inactive</div> -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Jacob Jones</td>
+                  <td>Yahoo</td>
+                  <td>(208) 555-0112</td>
+                  <td>jacob@yahoo.com</td>
+                  <td>Brazil</td>
+                  <td>
+                    <div class="status active">Active</div>
+                    <!-- <div class="status">Inactive</div> -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Kristin Watson</td>
+                  <td>Facebook</td>
+                  <td>(704) 555-0127</td>
+                  <td>kristin@facebook.com</td>
+                  <td>Åland Islands</td>
+                  <td>
+                    <!-- <div class="status active">Active</div> -->
+                    <div class="status">Inactive</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="table__bottom">
+            <div class="table__desc">Showing data 1 to 8 of 256K entries</div>
+
+            <div class="pagination">
+              <button type="button" class="pagination__item pagination__item-arrow icon-chevron-2-left"></button>
+              <button type="button" class="pagination__item active">1</button>
+              <button type="button" class="pagination__item">2</button>
+              <button type="button" class="pagination__item">3</button>
+              <button type="button" class="pagination__item">4</button>
+              <button type="button" class="pagination__item pagination__item-dots">...</button>
+              <button type="button" class="pagination__item">40</button>
+              <button type="button" class="pagination__item pagination__item-arrow icon-chevron-2-right"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+
+
+<script src="js/script.min.js"></script>
+</body>
+
+</html>
